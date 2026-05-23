@@ -1,0 +1,4 @@
+Minimum value: 1
+Maximum value: 11
+Sum of all values: 47
+Prime numbers: [2, 3, 5, 7, 11]

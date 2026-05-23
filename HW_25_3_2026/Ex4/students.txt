@@ -1,0 +1,4 @@
+SV001, Le Minh Thắng, 3.65
+SV002, Huynh Gia Thinh, 3.7
+SV003, Nguyen Kha An, 3.6
+SV004, Le Minh Win, 4.0

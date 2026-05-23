@@ -1,0 +1,28 @@
+B1: Mở điện thoại -> chọn tùy chọn theo nhà phát triển -> gỡ lỗi qua wifi -> ghép nối bang mã ghép nối
+B2: Mở terminal trên android studio -> dán lệnh 
+& "C:\Users\lemin\AppData\Local\Android\Sdk\platform-tools\adb.exe" pair + địa chỉ IP và cổng
+B3: Nhập mã ghép nối 6 chữ số vào
+B4: gõ lệnh & "C:\Users\lemin\AppData\Local\Android\Sdk\platform-tools\adb.exe" connect + "địa chỉ IP và cổng ở màn hình gỡ lỗi qua wifi (bên dưới tên thiết bị"
+
+
+** Yêu cầu: phải cùng mạng (wifi) 
+** Chỉ cần pair 1 lần, những sau chỉ cần connect
+
+##: Làm sao để tìm file adb.exe 
+B1: Trên android Studio -> chọn file -> settings -> languages & Framework -> Android SDk
+B2: Nhìn cái link thư mục Android SDK Location: ........
+B3: Đi theo đường link thư mục để tìm -> platform-tools 
+B4: Kéo file adb.exe vào terminal (nếu không được thì làm B5) và nhập pair + địa chỉ hướng dẫn connect qua mã ghép nối
+B5: chuột phải vào file adb.exe -> copy as path rồi làm tương tự phía trên 
+
+--------------------------------------------------------
+## Có thể thiết lập environment variable để viết ngắn gọn hơn
+B1: copy đường dẫn thư mục tìm adb.exe trừ "\adb.exe" 
+B2: Vô edit the system environment variables (trên máy tính) -> Environment Variables
+B3: Nhìn khung phía trên User Variables -> path -> edit -> 1 bang danh sách hiện ra -> new
+B4: paster đường dẫn ở B1
+B5: nhấn oke đến hết
+
+** Note: tắt ads trước và mở lại
+- Kiểm tra = cách go adb version
+** Từ đó chỉ cần go: adb connect + "địa chỉ IP và port ở màn hình chính" để kết nối
