@@ -1,0 +1,2 @@
+- link repo BE: https://github.com/nguyenkhaan/JobPortalBE
+- Link repo FE: https://github.com/nguyenkhaan/JobPortalFE
